@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+:root {
+  color: #26221e;
+  background: #f4f0e8;
+  font-family: 'Source Sans 3', Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #f4f0e8;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f4f0e8;
+}
+
+.portfolio {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  padding: 76px 54px 96px;
+}
+
+article {
+  border-top: 1px solid #b9b0a3;
+}
+
+.document-header {
+  padding: 33px 0 52px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: #1f1b17;
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  max-width: 760px;
+  font-size: clamp(2.35rem, 6vw, 4.65rem);
+  line-height: 1.08;
+}
+
+section {
+  padding: 38px 0 45px;
+  border-top: 1px solid #cec6ba;
+}
+
+section:first-of-type {
+  border-top: 0;
+}
+
+h2 {
+  margin-bottom: 23px;
+  font-size: clamp(1.55rem, 3vw, 2.35rem);
+  line-height: 1.2;
+}
+
+h3 {
+  margin-bottom: 17px;
+  font-size: clamp(1.2rem, 2.1vw, 1.6rem);
+  line-height: 1.3;
+}
+
+p,
+li {
+  max-width: 760px;
+  font-size: 1.05rem;
+  line-height: 1.72;
+}
+
+p {
+  margin: 0 0 16px;
+}
+
+.role,
+.label {
+  color: #5c4b3c;
+  font-size: 0.94rem;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.role {
+  margin-bottom: 22px;
+}
+
+.label {
+  margin-top: 27px;
+  margin-bottom: 11px;
+}
+
+.core {
+  margin-top: 26px;
+  padding-left: 18px;
+  border-left: 3px solid #8d6f54;
+}
+
+ul {
+  max-width: 780px;
+  margin: 0 0 5px;
+  padding-left: 25px;
+}
+
+li {
+  padding-left: 7px;
+  margin: 3px 0;
+}
+
+.subsection {
+  margin-top: 38px;
+  padding: 0 0 4px 25px;
+  border-top: 0;
+  border-left: 1px solid #b9b0a3;
+}
+
+.subsection .label {
+  margin-top: 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .portfolio {
+    padding: 42px 22px 64px;
+  }
+
+  .document-header {
+    padding: 25px 0 38px;
+  }
+
+  section {
+    padding: 31px 0 35px;
+  }
+
+  p,
+  li {
+    font-size: 1rem;
+    line-height: 1.68;
+  }
+
+  .subsection {
+    padding-left: 17px;
+  }
+}
